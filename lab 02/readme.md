@@ -8,7 +8,7 @@ q3
 q4
 ![Q4](https://github.com/murtaza-1/PF-FALL-23/assets/142867464/a3d962fe-7741-4808-aa88-34b7b380593f)
 q5
-![Q5](https://github.com/murtaza-1/PF-FALL-23/assets/142867464/34ad22f1-faf9-4df7-ad87-d93a9c1b833d)
+![Q5](https://github.com/murtaza-1/PF-FALL-23/assets/142867464/e37675a7-8807-410e-a5b2-347c8d134783)
 q6
 ![Q6](https://github.com/murtaza-1/PF-FALL-23/assets/142867464/10a693c8-fdcc-40fe-9453-4bb667e0fb9f)
 q7
