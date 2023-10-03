@@ -1,0 +1,176 @@
+programmer: Murtaza Jafri
+Lab 06
+23K0076
+10 Septemeber 2023
+Loops practice 
+Q1
+#include <stdio.h>
+int main() {
+
+  int i=1, n;
+  int sum=0;
+  printf("enter a number");
+  scanf("%d",&n);
+  
+  while(i<n)
+  {
+  	if(n%i==0)
+  	{
+  		sum=sum+i;
+	  }
+    i++;
+  }
+  printf("%d\n",sum);
+  if(n==sum){
+  printf("number is a perfect mum");
+}  if(n!=sum)
+  {
+  	printf("not a perfect num");
+  }
+}
+
+Q2
+#include <stdio.h>
+int main() {
+
+  int i, n;
+  int t1 = 0, t2 = 1;
+  int nextTerm = t1 + t2;
+  int sum=1;
+{
+  printf("Fibonacci Series: %d, %d, ", t1, t2);
+  for (i = 3; nextTerm <=10000; ++i) {
+    printf("%d, ", nextTerm);
+    t1 = t2;
+    t2 = nextTerm;
+    nextTerm = t1 + t2;
+    sum=sum+nextTerm;
+}
+if(sum%7==0)
+{
+	printf("divisible by 7");
+}
+if(sum%3==0)
+{
+	printf("divisible by 3");
+}
+if(sum%5==0)
+{
+	printf("divisible by 5");
+}
+  return 0;
+}}
+Q3
+#include <stdio.h>
+int main() {
+  int i=1, n1, n2, HCF=1, LCM=1, small;
+  printf("Enter 1st number: ");
+  scanf("%d", &n1);
+  printf("Enter 2nd number: ");
+  scanf("%d", &n2);
+  int p=n1;
+  int q=n2;
+  if(n1<n2){
+  small=n1;
+  }
+  else{
+  small=n2;
+  }
+  while(i<=small){
+  if(n1%i==0 && n2%i==0){
+     HCF = HCF*i;
+     n1/=i;                                              
+   n2/=i;
+   i=1;
+}
+i++;
+  }
+  i=1;
+  printf("HCF is %d\n", HCF);
+  LCM = (p*q)/HCF;
+   printf("LCM is %d", LCM);
+}
+Q4
+
+#include <stdio.h>
+int main() {
+
+  int i=2, n=0,z=0;
+  int a,b;
+  printf("enter number 1");
+  scanf("%d",&a);
+   printf("enter number 2");
+  scanf("%d",&b);
+ while(a<=b){
+ 
+  while(a<=9)
+  {
+  	switch(a)
+  	{
+  		case 1:
+  			printf("one");
+  			break;
+  		case 2:
+  			printf("two");
+  			break;
+        case 3:
+  			printf("three");
+  			break;
+        case 4:
+  			printf("four");
+  			break;
+        case 5:
+  			printf("five");
+  			break;
+        case 6:
+  			printf("six");
+  			break;
+        case 7:
+  			printf("seven");
+  			break;
+        case 8:
+  			printf("eight");
+  			break;
+         case 9:
+  			printf("nine");
+  			break;
+	  }
+a++;}
+	  if(a%2==0)
+	  {
+	  	printf("even");
+	  }
+	  else
+	  printf("odd");
+  	a++; 
+ } }
+  Q5
+  #include<stdio.h>
+ main() {
+    int n = 6; 
+
+    for (int i = 0; i <= n; i++) {
+        if (i % 2 == 0) {
+            printf("%d %d %d %d\n", i, i, i, i);
+        } else {
+            int spaces_before = (n - i) / 2;
+            int spaces_after = (n - i) / 2;
+           
+            if (n % 2 == 1 && i == n) {
+                spaces_after++;
+            }
+           
+            for (int j = 0; j < spaces_before; j++) {
+                printf("  ");
+            }
+           
+            printf("%d", i);
+           
+            for (int j = 0; j < spaces_after; j++) {
+                printf("   ");
+            }
+           
+            printf("%d\n", i);
+        }
+    }}
+Q6
