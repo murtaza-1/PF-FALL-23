@@ -1,3 +1,7 @@
+/*
+*Programmer: Murtaza Jafri
+*Desc: Div without op
+/*
 #include<stdio.h>
  
  main()
