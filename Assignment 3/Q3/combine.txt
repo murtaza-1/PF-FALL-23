@@ -1,0 +1,5 @@
+1,Murtaza,100000
+2,kashif,20000
+3,muhammad,50000
+4,alex,32000
+5,trump,78000
